@@ -24,4 +24,5 @@ app.layout = html.Div([
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    # Use the current Dash API to start the server
+    app.run(debug=True)
